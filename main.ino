@@ -1,8 +1,11 @@
 // Here the main application code 
 
-#include "ultrasonic.h"
-#include "motor.h"
-
+extern "C" {
+    #include "motor.h"
+}
+extern "C" {
+    #include "ultrasonic.h"
+}
 
 void setup()
 {
