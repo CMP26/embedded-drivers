@@ -10,7 +10,7 @@ extern "C" {
 void setup()
 {
 
-    motor_initializer();
+    motor_init();
     ultrasonic_initializer();
 
 }
